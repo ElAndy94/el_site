@@ -19,17 +19,17 @@ function Home() {
             <p>
               Diverse set of skills ranging from; HTML5, CSS/SCSS(Sass),
               JavaScript (Express, Node.js, Angular.js, Vue.js, React.js
-              (Redux), TypeScript) jQuery, Python, AWS, PHP, SQL, and basic
-              knowledge of other languages...
+              (Redux), TypeScript), GatsbyJS, jQuery, Python, AWS, PHP, SQL, and
+              basic knowledge of other languages...
             </p>
-            <p>
+            {/* <p>
               I enjoy challenges and consider myself an enterprising individual
               who likes to take risks and use my own initiative.
             </p>
             <p>
               Approachable personality in which I can socialise well with the
               public and work well in a team.
-            </p>
+            </p> */}
           </article>
         </div>
       </section>

@@ -39,9 +39,9 @@ const Header = () => {
             <NavItem link='/experience' exact>
               Experience
             </NavItem>
-            <NavItem link='/projects' exact>
+            {/* <NavItem link='/projects' exact>
               Projects
-            </NavItem>
+            </NavItem> */}
           </ul>
         </nav>
       </div>
