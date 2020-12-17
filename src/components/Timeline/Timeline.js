@@ -10,7 +10,7 @@ const TimelineComp = () => {
         key="001"
         dateText="March 2020 – Present"
         dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
-        contentStyle={{ color: "#fff" }}
+        bodyContainerStyle={{ color: "#fff" }}
       >
         <h3 className="padding-bottom-sm">Software Engineer, Apadmi</h3>
         <p>
@@ -71,6 +71,7 @@ const TimelineComp = () => {
         key="003"
         dateText="March 2019 – March 2020"
         dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
+        bodyContainerStyle={{ color: "#fff" }}
       >
         <h3 className="padding-bottom-sm">
           Frontend Developer, Think Money Group
@@ -146,6 +147,7 @@ const TimelineComp = () => {
         key="005"
         dateText="Sep 2018 – Nov 2018"
         dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
+        bodyContainerStyle={{ color: "#fff" }}
       >
         <h3 className="padding-bottom-sm">
           FullStack Developer, Eversmart Energy
@@ -194,6 +196,7 @@ const TimelineComp = () => {
         key="007"
         dateText="May 2013 – Aug 2015"
         dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
+        bodyContainerStyle={{ color: "#fff" }}
       >
         <h3 className="padding-bottom-sm">
           Managing Director of Andy Holdings Ltd
@@ -247,6 +250,7 @@ const TimelineComp = () => {
         key="009"
         dateText="Mar 2011 – May 2011"
         dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
+        bodyContainerStyle={{ color: "#fff" }}
       >
         <h3 className="padding-bottom-sm">
           IT Technician, Systems Services, Gibraltar
