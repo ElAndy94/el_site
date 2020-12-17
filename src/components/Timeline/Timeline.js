@@ -1,17 +1,17 @@
-import React from 'react';
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import React from "react";
+import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
-import './Timeline.scss';
+import "./Timeline.scss";
 
 const TimelineComp = () => {
   return (
-    <Timeline lineColor={'#ddd'}>
+    <Timeline lineColor={"#ddd"}>
       <TimelineItem
-        key='001'
-        dateText='March 2020 – Present'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="001"
+        dateText="March 2020 – Present"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
       >
-        <h3 className='padding-bottom-sm'>Software Engineer, Apadmi</h3>
+        <h3 className="padding-bottom-sm">Software Engineer, Apadmi</h3>
         <p>
           • &nbsp;Write software in a variety of languages, always ensuring the
           quality of the work delivered is of the highest standard.
@@ -43,22 +43,22 @@ const TimelineComp = () => {
         </p>
       </TimelineItem>
       <TimelineItem
-        key='002'
-        dateText='Jan 2020 – Present'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="002"
+        dateText="Jan 2020 – Present"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
         bodyContainerStyle={{
-          background: '#ddd',
-          padding: '20px',
-          borderRadius: '8px',
-          boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
-        <h3 className='padding-bottom-sm'>Managing Director, PelTech</h3>
+        <h3 className="padding-bottom-sm">Managing Director, PelTech</h3>
         <p>• &nbsp;Developing software for clients.</p>
         <p>• &nbsp;Quoting clients for costs of software.</p>
         <p>• &nbsp;Developing production grade front end web architecture.</p>
         <p>
-          • &nbsp;Ensuring cross-platform optimisation across required devices.{' '}
+          • &nbsp;Ensuring cross-platform optimisation across required devices.{" "}
         </p>
         <p>• &nbsp;Meeting both technical and business needs. </p>
         <p>
@@ -67,11 +67,11 @@ const TimelineComp = () => {
         </p>
       </TimelineItem>
       <TimelineItem
-        key='003'
-        dateText='March 2019 – March 2020'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="003"
+        dateText="March 2019 – March 2020"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
       >
-        <h3 className='padding-bottom-sm'>
+        <h3 className="padding-bottom-sm">
           Frontend Developer, Think Money Group
         </h3>
         <p>
@@ -103,17 +103,17 @@ const TimelineComp = () => {
         </p>
       </TimelineItem>
       <TimelineItem
-        key='004'
-        dateText='Jan 2019 – April 2019'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="004"
+        dateText="Jan 2019 – April 2019"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
         bodyContainerStyle={{
-          background: '#ddd',
-          padding: '20px',
-          borderRadius: '8px',
-          boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
-        <h3 className='padding-bottom-sm'>Lead Frontend Developer, Dyne</h3>
+        <h3 className="padding-bottom-sm">Lead Frontend Developer, Dyne</h3>
         <h4>Contract</h4>
         <p>
           • &nbsp;Using React inc Redux combined with Typescript ( Graphql )
@@ -125,15 +125,15 @@ const TimelineComp = () => {
         </p>
         <p>• &nbsp;Developing production grade front end web architecture.</p>
         <p>
-          • &nbsp;Ensuring cross-platform optimisation across required devices.{' '}
+          • &nbsp;Ensuring cross-platform optimisation across required devices.{" "}
         </p>
         <p>
           • &nbsp;Conceptualising and implementing robust QA and testing
-          frameworks.{' '}
+          frameworks.{" "}
         </p>
         <p>
           • &nbsp;Taking ownership of, and managing / seeing through a project
-          from conception to finalisation.{' '}
+          from conception to finalisation.{" "}
         </p>
         <p>• &nbsp;Meeting both technical and business needs. </p>
         <p>
@@ -142,34 +142,34 @@ const TimelineComp = () => {
         </p>
       </TimelineItem>
       <TimelineItem
-        key='005'
-        dateText='Sep 2018 – Nov 2018'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="005"
+        dateText="Sep 2018 – Nov 2018"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
       >
-        <h3 className='padding-bottom-sm'>
+        <h3 className="padding-bottom-sm">
           FullStack Developer, Eversmart Energy
         </h3>
         <h4>Contract</h4>
         <p>• &nbsp;Developing software in time for release date. </p>
-        <p>• &nbsp;Making sure that the system is ready for lunch day. </p>
+        <p>• &nbsp;Making sure that the system is ready for launch day. </p>
         <p>
-          • &nbsp;Checking that the full website is reponsive on all browsers{' '}
+          • &nbsp;Checking that the full website is reponsive on all browsers{" "}
         </p>
         <p>• &nbsp;Fixing errors or simplying code. </p>
         <p>• &nbsp;Ensure consistency throughout.</p>
       </TimelineItem>
       <TimelineItem
-        key='006'
-        dateText='Jun 2018 – Sep 2018'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="006"
+        dateText="Jun 2018 – Sep 2018"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
         bodyContainerStyle={{
-          background: '#ddd',
-          padding: '20px',
-          borderRadius: '8px',
-          boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
-        <h3 className='padding-bottom-sm'>
+        <h3 className="padding-bottom-sm">
           Software Developer, Manchester Metropolitan University
         </h3>
         <h4>Contract</h4>
@@ -190,11 +190,11 @@ const TimelineComp = () => {
         <p>• &nbsp;Ensure consistency and maximise efficiency.</p>
       </TimelineItem>
       <TimelineItem
-        key='007'
-        dateText='May 2013 – Aug 2015'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="007"
+        dateText="May 2013 – Aug 2015"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
       >
-        <h3 className='padding-bottom-sm'>
+        <h3 className="padding-bottom-sm">
           Managing Director of Andy Holdings Ltd
         </h3>
         <p>
@@ -212,17 +212,17 @@ const TimelineComp = () => {
         <p>• &nbsp;Delivered high standards to exceed the customers’ needs.</p>
       </TimelineItem>
       <TimelineItem
-        key='008'
-        dateText='Oct 2012 – Mar 2013'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="008"
+        dateText="Oct 2012 – Mar 2013"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
         bodyContainerStyle={{
-          background: '#ddd',
-          padding: '20px',
-          borderRadius: '8px',
-          boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+          background: "#ddd",
+          padding: "20px",
+          borderRadius: "8px",
+          boxShadow: "0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)",
         }}
       >
-        <h3 className='padding-bottom-sm'>
+        <h3 className="padding-bottom-sm">
           Co-Founder of Avanti Construction & Maintenance
         </h3>
         <p>
@@ -243,11 +243,11 @@ const TimelineComp = () => {
         </p>
       </TimelineItem>
       <TimelineItem
-        key='009'
-        dateText='Mar 2011 – May 2011'
-        dateInnerStyle={{ background: '#2c4d6e', color: '#fff' }}
+        key="009"
+        dateText="Mar 2011 – May 2011"
+        dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
       >
-        <h3 className='padding-bottom-sm'>
+        <h3 className="padding-bottom-sm">
           IT Technician, Systems Services, Gibraltar
         </h3>
         <p>
