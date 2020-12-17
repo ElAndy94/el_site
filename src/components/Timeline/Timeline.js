@@ -10,6 +10,7 @@ const TimelineComp = () => {
         key="001"
         dateText="March 2020 – Present"
         dateInnerStyle={{ background: "#2c4d6e", color: "#fff" }}
+        contentStyle={{ color: "#fff" }}
       >
         <h3 className="padding-bottom-sm">Software Engineer, Apadmi</h3>
         <p>

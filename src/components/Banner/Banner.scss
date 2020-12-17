@@ -1,9 +1,9 @@
-@import '../../sass/base';
+@import "../../sass/base";
 
 .section-banner {
   div {
     .banner-ul {
-      background-color: #e8e6e6;
+      background-color: #223344;
       display: flex;
       padding: 16px 6px;
       border-radius: 0 0 10px 10px;
@@ -14,6 +14,7 @@
 
       li {
         padding: 0 8px;
+        z-index: 2;
 
         a,
         .banner-fa-res {

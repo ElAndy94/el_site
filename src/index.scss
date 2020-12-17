@@ -1,15 +1,16 @@
-@import './sass/_css-reset.scss';
-@import './sass/base';
-@import './sass/helpers';
+@import "./sass/_css-reset.scss";
+@import "./sass/base";
+@import "./sass/helpers";
 
 body {
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #223344;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

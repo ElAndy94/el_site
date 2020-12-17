@@ -1,15 +1,28 @@
-import React from 'react';
+import React from "react";
+import Particles from "react-particles-js";
 
-import Banner from '../../components/Banner/Banner';
-import './Home.scss';
+import Banner from "../../components/Banner/Banner";
+import "./Home.scss";
 
 function Home() {
   return (
-    <React.Fragment>
+    <div className="page-container">
+      <Particles
+        params={{
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
+        }}
+      />
       <Banner />
-      <section className='section'>
-        <div className='wrapper'>
-          <article className='home-container'>
+      <section className="section">
+        <div className="wrapper">
+          <article className="home-container">
             <h1>Welcome!</h1>
             <p>My name is Andrew Peliza, I am a Software Engineer.</p>
             <p>
@@ -33,7 +46,7 @@ function Home() {
           </article>
         </div>
       </section>
-    </React.Fragment>
+    </div>
   );
 }
 
